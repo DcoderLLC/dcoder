@@ -1,0 +1,313 @@
+<html>
+<head>
+<title>Dcoder: Dcode your life!!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="https://lh3.googleusercontent.com/6mA0j1TECWsYeCr-yS1iwA67sgJ0TL3LWIjA0q08OZq4GByRtnpWRQa9VtPSzPS3sylGVgQJeeJkZ29DFg8Vh0S2AjyCAFjjXcJZhAQ8HIfsZxg8Hqv3GPNTDgLx55XB_qS7PXn9GA=w2400" type="image/x-icon">
+</head>
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://lh3.googleusercontent.com/OqdiHrUbRLE907snB7PeY1d_uUKRJ5cQ87qbnzJIKgiTeMQIw2RLKuek4VIbDwcdv1lIPMJMMMt9PA7jnJsH2zDjMOzNDM7L8a_W3oEs-VSuJ4MNCPemwefx2YvCq3EJ3doRzo9y=w2400");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+</style>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Dcoder LLC</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-book"></i>ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Debug Your Future !</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Debug Your Future !</span><br>
+    <span class="w3-large">Working with my team to help your grow.</span>
+    <p><a href="#about" class="w3-button w3-light-gray w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off w3-hover-white">Learn more and start today</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-white w3-large" style="padding:24px 48px">
+    <a href="https://www.instagram.com/llcdcoder/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/LLCDcoder"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE COMPANY</h3>
+  <p class="w3-center w3-large">Key Features of Our Company !!</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-line-chart w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Development</p>
+      <p>Creating the best team to help you all develop a good 
+        rapport and build your future.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-lightbulb-o w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Creativity</p>
+      <p>Being creative is our responibility to make
+        you satisfied with our Serices. 
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-mobile-phone w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">UI/UX Design</p>
+      <p>Designing the best User Interface for you to make you 
+        fall in love with our Web and App Service.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-handshake-o w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>Provides you education about the computer language to
+        help you grow in your life.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We know design.</h3>
+      <p>Design adds more value to your Website and Application<br>the more you use, the more you grow.</p>
+      <br>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://lh3.googleusercontent.com/wYghmlxrebmfMu9NhXCOERgJ4Qt5JDHsDoJAwNMEYayI2ZkoFobdyNnBQ5bV4TQapd7I6ezRh_J_xfMNTGM9_-bM-dvK-ZhoSjK60CGcn-ocw9C1pCbxx9s2f4MbEvsb1sD_ODHh=w2400" alt="Preview" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">OUR TEAM</h3>
+  <p class="w3-center w3-large">The ones who runs this company</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://lh3.googleusercontent.com/vvMAwBtiv9nK7Cxo6xCs67pWpShnR7gkKhK4ZhgSKeG3rT8RjiLGNYrXhVukuUCT3D5jYKedPupcQC6C6xwpheGNuvC0JV62VRJvsMiZca-MQT32VTF3EvWepkLQAD_YXUEXcItM=w2400" alt="Nikhil" style="width:100%">
+        <div class="w3-container">
+          <h3>Nikhil Ranjan</h3>
+          <p class="w3-opacity">CEO Founder & App Developer</p>
+          <p>Hey, I'm Nikhil and I'm an Experienced Android Application Developer.</p>
+          <p><a href="#contact"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>Contact</button></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://lh3.googleusercontent.com/s3Lhobjl23swsftTakFEZ93Hxpd4aCKLIVgvWmWu3ugN4Qjq8jMswMXkck0DpMGsTGo0OZuxEMiw6WSGXRfz3f9522KgIZcEL4q2kXoMwYaPj6DgP2AELptSfFoXkktol93E3y1I=w2400" alt="Manas" style="width:100%">
+        <div class="w3-container">
+          <h3>Manas Bhardwaj</h3>
+          <p class="w3-opacity">Co-founder & App Developer</p>
+          <p>Hey, Manas here, I'm an Experienced Application Developer and UI designer.</p>
+          <p><a href="#contact"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://lh3.googleusercontent.com/1NWSC6fYPtnY68hSLKJpcbI_qQbaL6xMIb6-VHqO4Xmnvoer5XbvNuzrrzTxpSlNNPCgRTRuxw3hVK-j16u5tIPfu3NbjCLNWdowcfJ8NvAPpNOPsVuxiVIRSTUkKNfb3InwGEIX=w2400" alt="Aditya" style="width:100%">
+        <div class="w3-container">
+          <h3>Aditya Raj</h3>
+          <p class="w3-opacity">Co-founder & Business Associate</p>
+          <p>Hey, It's Aditya here, I've a experience of Pitching our ideas from a long time.</p>
+          <p><a href="#contact"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i>Contact</button></a></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://lh3.googleusercontent.com/QSXIbn6Cd4VY3V2wFRaP83wZEr5gKpayx2GX1AJl96ilufhmfmFeV0KpSXvnTb7mpuX0jU7vP2hBP-gMAyX-fpAwLdqcb5-dBzrDdhqQ5dAEv8ocDytTenBElRvaSCtBvjBC5vx2=w2400" alt="Vaishnavi" style="width:100%">
+        <div class="w3-container">
+          <h3>Vaishnavi Raj</h3>
+          <p class="w3-opacity">Co-founder & Web Designer</p>
+          <p>Hey, Vaishnavi here, I've a experience of designing web pages from a long time.</p>
+          <p><a href="#contact"><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">OUR WORK</h3>
+  <p class="w3-center w3-large">What we've done for people</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://lh3.googleusercontent.com/DwFf6KGnJ_K0-3mB_QWv3QOxHj7Yn6n14dVwM3g2AQbtO3scDVt21fgxujkqyYrf_9wY7zHC2MMXwxhMF27j5fep5F3shumkNYzsfmcku4jna_1lcuXQI84DPDb-Gu3ZM5vktCd98g=w2400" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Krishi Sahiyog">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://lh3.googleusercontent.com/RXFgJ4z3eq5GgSPDGuBbx8P9my1egexGsLoN0UdQTaxZ9VvOSEZILofbRrYXEIDCqbqXlA2oNqX9u2nxqxiSqB4OwVWnyw8WrnzYSd4W-xh2xvb3uwQJ0S5Qf6z3EDfQNAhT83MhZQ=w2400" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Code Box">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://lh3.googleusercontent.com/1Nzk5AE3OP4Is4c22QG7lJMFy3MRTKsRexPIaY89p6Zj0fOm5KNtYMg__JpixJSuAOmxI9idBM94FMlhQJTbB0MhT18Uoek9e1lyWb4_W8UUYH-xqB5-Evz4uqDnpnCfwN5K7bLPhw=w2400" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Track your way">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://lh3.googleusercontent.com/yB1MxdxFaQNJ-fJwVVUK7bN_d4EegFf8kec0l9htaTmnI118XsIonkTp9xQ-uJdpcYJPe8qCar7wLJ2nA4RXjdCtLgaGgOkB63iovux7lfBiNB6-4IeTIVEsZ6hIUsNMcgNMi_tBqA=w2400" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="More Projects">
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills.</h3>
+      <p>A well Experienced Team for you to enojy our services.. </p>
+      <p>Our Expertise are Website Development ,Android App Development 
+        and UI/UX designing.</p>
+        <br>
+        <p><a href="#contact" class="w3-button w3-black"><i class="fa fa-envelope"> </i> Contact us!</a></p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-code w3-margin-right"></i>Web Development</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>App Development</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-mobile w3-margin-right"></i>UI/UX Designing</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Bihar, India</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 8252713203</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: dcoderllc@gmail.com</p>
+    <br>
+    <form action="conn.php" method="post" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" name="name" required></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" name="email" required></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="subject" required></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" name="message" required></p>
+      <br>
+      <p>
+        <button class="w3-button w3-black" href="#home" type="submit" onclick="alert('Record Saved Successfully !')">
+          <i class="fa fa-paper-plane"></i>SEND MESSAGE</button>
+      </p>
+    </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.instagram.com/llcdcoder/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/LLCDcoder"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  </div>
+  <p>© Copyright reserved</p>
+</footer>
+<script>
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCnxd4iXXaM30-dzq1W2XbuyUhcSZUWvpw",
+  authDomain: "dcoder-webpage.firebaseapp.com",
+  projectId: "dcoder-webpage",
+  storageBucket: "dcoder-webpage.appspot.com",
+  messagingSenderId: "173016197838",
+  appId: "1:173016197838:web:078c2cba74dcd454f4be9f",
+  measurementId: "G-BRLZRGWEXB"
+};
+    // Modal Image Gallery
+function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+  
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+  
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+</script>
+</body>
+</html>
